@@ -197,7 +197,7 @@ def find_even_values(src)
 end
 ```
 
-We know thata the `src` parameter is an array of arrays, so we can use
+We know that the `src` parameter is an array of arrays, so we can use
 `src.count` to get the length of the outer array and compare it to `row_index`
 when setting up the first `while` loop. Inside this loop, we create a second
 variable, `element_index`. Every time the outer loop runs, `element_index` is
